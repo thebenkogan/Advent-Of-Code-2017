@@ -50,3 +50,16 @@ fn benchmark_part<T>(p: fn(&str) -> T, input: &str) -> Duration {
     }
     total / NUM_TRIALS
 }
+
+pub const DIAG_DIRS: [(i32, i32); 8] = [
+    (-1, -1),
+    (0, -1),
+    (1, -1),
+    (-1, 0),
+    (1, 0),
+    (-1, 1),
+    (0, 1),
+    (1, 1),
+];
+
+pub const DIRS: [(i32, i32); 4] = [(0, -1), (1, 0), (0, 1), (-1, 0)];
