@@ -1,4 +1,4 @@
-### Rewriting Advent Of Code 2022 Solutions in Rust
+### Advent of Code 2017 Solutions
 
 Run day number `n` with:
 `cargo run --bin n`
