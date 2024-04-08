@@ -1,3 +1,5 @@
+pub mod knot_hash;
+
 use std::{
     env,
     fmt::Display,
